@@ -1,0 +1,18 @@
+Automation approach:
+Cucumber BDD frame work was used by wrting the the test case using Gherkin language and creating request classes and functions.
+
+Explanation:
+BasePage: holds delays and sleep
+Pages : Repository of objects for all pages (IN this case there is only one page)
+HomePage: Holds all the webelements and functions of the landing page.
+StepDefenitions: Holds all the functions that define the steps in the "timer.feature" file
+RunCucumberTest: Suite that runs the test
+timer.feature : Contains all the scenarios to test
+
+
+Scenarios Covered: 
+1. Verify that the help and settings are available after clicking the help and settings button.
+2. Verify that there are 2 sample timer available in the home page
+3. Verify that the countdown timer is taken as seconds when giving a time value in format “ n seconds” in the textbox and clicking start.
+4. Verify that the countdown timer is taken when using one of the sample timer available
+5. Verify that the countdown timer does not start when giving an invalid value.
